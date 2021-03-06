@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.instagram-continue {
+  min-height: 480px;
+  padding: 0 10px;
+  max-width: 370px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.group:nth-of-type(1) {
+  min-height: 19rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+
+.instagram-logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.profile-photo img {
+  height: 90px;
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.app-download img {
+  height: 50px;
+  margin: 5px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .instagram-phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .group {
+    border: none;
+    background: #FAFAFA;
+  }
+  .download {
+    flex-wrap: wrap;
+  }
+}
