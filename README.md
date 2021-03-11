@@ -1,9 +1,13 @@
 # INSTAGRAM LOGIN CLONE
-## 📚 Second Project of the Avanade Angular Developer Bootcamp
+## 📚 Dio's Course Project: recreating the Instagram homepage
+<a href="https://certificates.digitalinnovation.one/F53F33AE">certificate link</a>
 
+<img src="./github/certificate.png" alt="certificate"> 
+
+## 🎨 final result
 <img src="./github/login-page.png" alt="instagram login page">
 
-## 📱💻🖥 I implemented media queries to make it very responsive.
+## 📱💻🖥 I implemented media queries to make it very responsive
 
 <img src="./github/responsive.gif" alt="netflix clone gif">
 
